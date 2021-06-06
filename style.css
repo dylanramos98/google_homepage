@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: arial, sans-serif;
-    font size: 14px;
+    font-size: 14px;
 }
 
 a {
@@ -49,4 +49,66 @@ ul > a, ul > img {
 .header-img:focus{
     opacity: 0.7;
     cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.center-logo {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.mag-glass {
+    width: 25px;
+    max-height: 25px;
+    padding-top: 1.5%;
+    padding-left: 6px;
+    border-radius: 50%;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 540px;
+    height: 45px;
+    border: 1px solid gainsboro;
+    border-radius: 50px;
+
+}
+
+.search-bar:hover {
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+.search-bar > input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color:rgb(54, 54, 54)
+}
+
+.search-buttons {
+    padding-top: 25px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px gainsboro;
+}
+
+button {
+    background-color: rgb(248, 249, 250);
+    border: none;
+    border-radius: 5px;
+    height: 36px;
+    min-width: 54px;
+    padding: 0 20px;
+    margin: 0 4px;
+    font-size: 14px;
 }
