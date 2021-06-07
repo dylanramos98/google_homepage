@@ -112,3 +112,70 @@ button {
     margin: 0 4px;
     font-size: 14px;
 }
+
+footer {
+    background: #f2f2f2;
+    position: fixed;
+    bottom: 0%;
+    width: 100vw;
+}
+
+#footer-left {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+#footer-right {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+@media (max-width: 630px) {
+    
+    #footer-nav{
+        flex-direction: column;
+    }
+
+    #footer-left {
+        justify-content: center;
+    }
+
+    #footer-right {
+        justify-content: center;
+    }
+
+    .search-bar {
+        width: 95vw;
+    }
+}
+
+@media (max-height: 522px) {
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+
+@media (max-height: 570px) and (max-width: 680px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    section {
+        margin-bottom: 13px;
+    }
+
+    footer {
+        position: relative;
+    }
