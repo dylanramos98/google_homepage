@@ -2,7 +2,7 @@ Hello! My name is Dylan Ramos and this is my first HTML & CSS project.
 
 The goal of the project was to recreate the Google homepage as part of the "foundations" course while working through The Odin Project.
 
-I began by coming up with an html template to work off of. It started with the head of the document, defining the size of the viewport, charset, and the title of the page. I then gathered all of the icons I'd need for the page and kept them in an images folder to call when needed, as well as creating a stylesheet, in which I set a margin and font for the body.
+I began by creating an html template to build off of. It started with the head of the document, defining the size of the viewport, charset, and the title of the page. I then gathered all of the icons I'd need for the page and kept them in an images folder to call when needed, as well as creating a stylesheet, in which I set a margin and font for the body.
 
 From there, I began working on the top-navigation bar. I created two separate unordered lists with the class "header-nav", one for the two links on the left-side of the navigation bar, and the other for the two links and two icons on the right. I spent a good amount of time on CSS work at this time, such as messing with font-sizes, colors, margins, padding and altering images.
 
