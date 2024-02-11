@@ -10,7 +10,7 @@ After the top-navigation bar, I worked my way down to the center Google logo and
 
 Lastly, I added the footer section. This was the easiest part of the project for me, as it was essentially the same as the top-navigation bar, using the same styling, but with a grey background and stuck to the bottom. At the end, I had to do some research and tinkering to get the media queries working properly, as I had no prior experience with them.
 
-Overall, this project was invaluable for my learning. I believe I learn better through projects and actually "doing" than reading or sandbox tutorials. Besides the HTML and CSS practice, this project really allowed me to get better with git and using the command line, as well as functionality of my IDE.
+Overall, this project was invaluable for my learning. I believe I learn better through projects and actually "doing" than reading or sandbox tutorials. Along with the HTML and CSS practice, this project increased my familiarity with git and the command line, as well as functionality in my IDE.
 
 Thanks for reading,
 Dylan Ramos
